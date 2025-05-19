@@ -1,0 +1,110 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "Tech Conference 2025",
+      "description": "A conference dedicated to the latest technologies in software development.",
+      "scheduledAt": "2025-06-15T09:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Marketing Summit",
+      "description": "Join marketing experts for a day of insights and networking.",
+      "scheduledAt": "2025-07-22T10:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "Design Workshop",
+      "description": "Learn new design techniques and tools in this hands-on workshop.",
+      "scheduledAt": "2025-08-05T13:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "name": "Product Launch",
+      "description": "Be the first to see our new product line and innovations.",
+      "scheduledAt": "2025-09-10T18:30:00.000Z"
+    }
+  ],
+  "attendees": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "eventId": 1,
+      "ticketIdentifier": "TECH-2025-001",
+      "checkedInAt": "2025-06-15T09:15:00.000Z"
+    },
+    {
+      "id": 2,
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "eventId": 1,
+      "ticketIdentifier": "TECH-2025-002",
+      "checkedInAt": null
+    },
+    {
+      "id": 3,
+      "firstName": "Robert",
+      "lastName": "Johnson",
+      "eventId": 1,
+      "ticketIdentifier": "TECH-2025-003",
+      "checkedInAt": "2025-06-15T09:20:00.000Z"
+    },
+    {
+      "id": 4,
+      "firstName": "Emily",
+      "lastName": "Williams",
+      "eventId": 2,
+      "ticketIdentifier": "MARK-2025-001",
+      "checkedInAt": null
+    },
+    {
+      "id": 5,
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "eventId": 2,
+      "ticketIdentifier": "MARK-2025-002",
+      "checkedInAt": "2025-07-22T10:15:00.000Z"
+    },
+    {
+      "id": 6,
+      "firstName": "Lisa",
+      "lastName": "Davis",
+      "eventId": 3,
+      "ticketIdentifier": "DESIGN-2025-001",
+      "checkedInAt": null
+    },
+    {
+      "id": 7,
+      "firstName": "James",
+      "lastName": "Miller",
+      "eventId": 3,
+      "ticketIdentifier": "DESIGN-2025-002",
+      "checkedInAt": "2025-08-05T13:10:00.000Z"
+    },
+    {
+      "id": 8,
+      "firstName": "Sarah",
+      "lastName": "Wilson",
+      "eventId": 4,
+      "ticketIdentifier": "PROD-2025-001",
+      "checkedInAt": null
+    },
+    {
+      "id": 9,
+      "firstName": "David",
+      "lastName": "Moore",
+      "eventId": 4,
+      "ticketIdentifier": "PROD-2025-002",
+      "checkedInAt": "2025-09-10T18:45:00.000Z"
+    },
+    {
+      "id": 10,
+      "firstName": "Jennifer",
+      "lastName": "Taylor",
+      "eventId": 4,
+      "ticketIdentifier": "PROD-2025-003",
+      "checkedInAt": null
+    }
+  ]
+}
