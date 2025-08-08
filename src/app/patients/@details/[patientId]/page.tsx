@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -16,6 +16,7 @@ import {
   MedicalTestModal, 
   ExternalReportModal 
 } from '@/components/patient-detail-modals';
+import { FloatingChat } from '@/components/floating-chat';
 
 const patients: Patient[] = [
   { id: 'pat_1', name: 'Olivia Martin', email: 'olivia.martin@email.com', lastCheckIn: 'July 20, 2024', status: 'Stable', avatar: 'https://placehold.co/100x100.png', initials: 'OM' },
@@ -32,14 +33,29 @@ const statusVariant: { [key in Patient['status']]: 'default' | 'secondary' | 'de
   'Needs Review': 'destructive',
 };
 
-export default function PatientDetailsPage({ params }: { params: { patientId: string } }) {
+export default function PatientDetailsPage({ 
+  params 
+}: { 
+  params: Promise<{ patientId: string }> 
+}) {
   const [selectedHistoryRecord, setSelectedHistoryRecord] = useState<PatientHistory | null>(null);
   const [selectedDiagnosisRecord, setSelectedDiagnosisRecord] = useState<DiagnosisTreatment | null>(null);
   const [selectedTestRecord, setSelectedTestRecord] = useState<MedicalTest | null>(null);
   const [selectedExternalRecord, setSelectedExternalRecord] = useState<ExternalReport | null>(null);
+  const [patientId, setPatientId] = useState<string>('');
+  const [patient, setPatient] = useState<Patient | undefined>(undefined);
+  const [record, setRecord] = useState<MedicalRecord | undefined>(undefined);
   
-  const patient = patients.find(p => p.id === params.patientId);
-  const record: MedicalRecord | undefined = (medicalRecords as Record<string, MedicalRecord>)[params.patientId];
+  // Resolver params de forma asíncrona
+  useEffect(() => {
+    params.then((resolvedParams) => {
+      const id = resolvedParams.patientId;
+      setPatientId(id);
+      setPatient(patients.find(p => p.id === id));
+      setRecord((medicalRecords as Record<string, MedicalRecord>)[id]);
+    });
+  }, [params]);
+  
   const age = 34; // Placeholder
 
   if (!patient || !record) {
@@ -293,6 +309,12 @@ export default function PatientDetailsPage({ params }: { params: { patientId: st
         isOpen={!!selectedExternalRecord}
         onClose={() => setSelectedExternalRecord(null)}
         record={selectedExternalRecord}
+      />
+
+      {/* Chat asistente flotante */}
+      <FloatingChat 
+        patientId={patientId}
+        patientName={patient?.name}
       />
     </main>
   );
