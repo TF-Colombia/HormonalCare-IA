@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js
+.next/
+out/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Exclude everything except the project files
+/*
+!/src/
+!/public/
+!/package.json
+!/package-lock.json
+!/next.config.ts
+!/next-env.d.ts
+!/tsconfig.json
+!/tailwind.config.ts
+!/postcss.config.mjs
+!/components.json
+!/cypress.config.js
+!/apphosting.yaml
+!/README.md
+!/CHAT-SETUP.md
+!/COMMIT-SUMMARY.md
+!/SETUP-EQUIPO.md
+!/.github/
+!/cypress/
+!/docs/
+!/test-api.js
+!/.env.example
+!/.gitignore
