@@ -1,0 +1,202 @@
+[
+  {
+    "eventday": "2025-08-04",
+    "starthour": "08:00",
+    "endhour": "08:30",
+    "title": "Consulta de control",
+    "host": "Dr. Sandro",
+    "participant": "Ana Martínez"
+  },
+  {
+    "eventday": "2025-08-04",
+    "starthour": "09:00",
+    "endhour": "09:30",
+    "title": "Revisión de exámenes",
+    "host": "Dr. Sandro",
+    "participant": "Carlos López"
+  },
+  {
+    "eventday": "2025-08-04",
+    "starthour": "10:00",
+    "endhour": "10:30",
+    "title": "Consulta inicial",
+    "host": "Dr. Sandro",
+    "participant": "María Gómez"
+  },
+  {
+    "eventday": "2025-08-04",
+    "starthour": "11:00",
+    "endhour": "11:30",
+    "title": "Control de tratamiento",
+    "host": "Dr. Sandro",
+    "participant": "Pedro Ruiz"
+  },
+  {
+    "eventday": "2025-08-04",
+    "starthour": "12:00",
+    "endhour": "12:30",
+    "title": "Consulta de seguimiento",
+    "host": "Dr. Sandro",
+    "participant": "Laura Torres"
+  },
+  {
+    "eventday": "2025-08-05",
+    "starthour": "08:00",
+    "endhour": "08:30",
+    "title": "Revisión de síntomas",
+    "host": "Dr. Sandro",
+    "participant": "Miguel Castro"
+  },
+  {
+    "eventday": "2025-08-05",
+    "starthour": "09:00",
+    "endhour": "09:30",
+    "title": "Consulta de control",
+    "host": "Dr. Sandro",
+    "participant": "Sofía Ramírez"
+  },
+  {
+    "eventday": "2025-08-05",
+    "starthour": "10:00",
+    "endhour": "10:30",
+    "title": "Control de medicación",
+    "host": "Dr. Sandro",
+    "participant": "Javier Díaz"
+  },
+  {
+    "eventday": "2025-08-05",
+    "starthour": "11:00",
+    "endhour": "11:30",
+    "title": "Consulta inicial",
+    "host": "Dr. Sandro",
+    "participant": "Valentina Pérez"
+  },
+  {
+    "eventday": "2025-08-05",
+    "starthour": "12:00",
+    "endhour": "12:30",
+    "title": "Revisión de exámenes",
+    "host": "Dr. Sandro",
+    "participant": "Andrés Herrera"
+  },
+  {
+    "eventday": "2025-08-06",
+    "starthour": "08:00",
+    "endhour": "08:30",
+    "title": "Consulta de seguimiento",
+    "host": "Dr. Sandro",
+    "participant": "Camila Vargas"
+  },
+  {
+    "eventday": "2025-08-06",
+    "starthour": "09:00",
+    "endhour": "09:30",
+    "title": "Control de tratamiento",
+    "host": "Dr. Sandro",
+    "participant": "Esteban Ríos"
+  },
+  {
+    "eventday": "2025-08-06",
+    "starthour": "10:00",
+    "endhour": "10:30",
+    "title": "Consulta de control",
+    "host": "Dr. Sandro",
+    "participant": "Daniela Romero"
+  },
+  {
+    "eventday": "2025-08-06",
+    "starthour": "11:00",
+    "endhour": "11:30",
+    "title": "Revisión de síntomas",
+    "host": "Dr. Sandro",
+    "participant": "Tomás Peña"
+  },
+  {
+    "eventday": "2025-08-06",
+    "starthour": "12:00",
+    "endhour": "12:30",
+    "title": "Consulta inicial",
+    "host": "Dr. Sandro",
+    "participant": "Gabriela Salazar"
+  },
+  {
+    "eventday": "2025-08-07",
+    "starthour": "08:00",
+    "endhour": "08:30",
+    "title": "Control de medicación",
+    "host": "Dr. Sandro",
+    "participant": "Felipe Mendoza"
+  },
+  {
+    "eventday": "2025-08-07",
+    "starthour": "09:00",
+    "endhour": "09:30",
+    "title": "Consulta de seguimiento",
+    "host": "Dr. Sandro",
+    "participant": "Natalia Cárdenas"
+  },
+  {
+    "eventday": "2025-08-07",
+    "starthour": "10:00",
+    "endhour": "10:30",
+    "title": "Revisión de exámenes",
+    "host": "Dr. Sandro",
+    "participant": "Ricardo Gil"
+  },
+  {
+    "eventday": "2025-08-07",
+    "starthour": "11:00",
+    "endhour": "11:30",
+    "title": "Consulta de control",
+    "host": "Dr. Sandro",
+    "participant": "Paula Suárez"
+  },
+  {
+    "eventday": "2025-08-07",
+    "starthour": "12:00",
+    "endhour": "12:30",
+    "title": "Control de tratamiento",
+    "host": "Dr. Sandro",
+    "participant": "Jorge Acosta"
+  },
+  {
+    "eventday": "2025-08-08",
+    "starthour": "08:00",
+    "endhour": "08:30",
+    "title": "Consulta inicial",
+    "host": "Dr. Sandro",
+    "participant": "Sara Morales"
+  },
+  {
+    "eventday": "2025-08-08",
+    "starthour": "09:00",
+    "endhour": "09:30",
+    "title": "Revisión de síntomas",
+    "host": "Dr. Sandro",
+    "participant": "David Pardo"
+  },
+  {
+    "eventday": "2025-08-08",
+    "starthour": "10:00",
+    "endhour": "10:30",
+    "title": "Consulta de seguimiento",
+    "host": "Dr. Sandro",
+    "participant": "Lucía Navarro"
+  },
+  {
+    "eventday": "2025-08-08",
+    "starthour": "11:00",
+    "endhour": "11:30",
+    "title": "Control de medicación",
+    "host": "Dr. Sandro",
+    "participant": "Emilio Vargas"
+  },
+  {
+    "eventday": "2025-08-08",
+    "starthour": "12:00",
+    "endhour": "12:30",
+    "title": "Consulta de control",
+    "host": "Dr. Sandro",
+    "participant": "Patricia León"
+  }
+]
