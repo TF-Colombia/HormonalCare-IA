@@ -190,3 +190,255 @@ Public/
 /frontendOPEN/
 /frontendWeb/
 /HormonalCare-IA/
+
+# Exclude other Documents folders
+Documents/clonarWeb/
+Documents/frontendOPEN/
+Documents/frontendWeb/
+Documents/Actividad mate/
+Documents/Aplicaciones Open Source/
+Documents/Aplicaciones Web/
+Documents/Copia de parcialOpen 2/
+Documents/Copia de parcialOpen/
+Documents/Crafted.sql
+Documents/Doc2Calculo2.docx
+Documents/FernandezOwner.mp4
+Documents/Gherking_MediAR/
+Documents/INTEGRARFBack/
+Documents/INTEGRARFront/
+Documents/MediAR-Landing-Pag/
+Documents/MediAR-Landing_Page 2/
+Documents/MediAR-Landing_Page.zip
+Documents/MediAR-Landing_Page/
+Documents/MediAR_landing_P/
+Documents/OpenCorreccionAlgo/
+Documents/PC2-ARQUI/
+Documents/PROYECTONAME/
+Documents/ProblemaAgenteVIajeroComputacional/
+Documents/Seccion-Planes/
+Documents/Secciones soluciones, biblioteca y simuladores.zip
+Documents/Secciones soluciones, biblioteca y simuladores/
+Documents/TrabajosUPC/
+Documents/Web App Wireframes/
+Documents/WebpaOpen/
+Documents/Zoom/
+Documents/acabarpc2Open/
+Documents/adrianiam/
+Documents/ahorasi/
+Documents/arqui.zip
+Documents/arqui/
+Documents/arquirepaso/
+Documents/asdfgh/
+Documents/authv4/
+Documents/averrrr/
+Documents/averrrrrr/
+Documents/backWebAdrian/
+Documents/backendWeb/
+Documents/cafe-api/
+Documents/cambioDev/
+Documents/catch-up/
+Documents/certificadomongo/
+Documents/clonarOpen/
+Documents/cofeManagement/
+Documents/comparadorWeb/
+Documents/convertirBackOpen/
+Documents/coreccionesOpenTB2/
+Documents/correccionOpen/
+Documents/correcionOpen/
+Documents/correcionWebS8/
+Documents/corregirOpenS8/
+Documents/corregirWebInitial/
+Documents/curso flutter/
+Documents/cursoJava/
+Documents/curso_Pythonsql/
+Documents/cv2/
+Documents/cv3/
+Documents/datos-grupo2/
+Documents/dbackendop/
+Documents/deploylanding/
+Documents/deplyopen/
+Documents/des/
+Documents/desplegarOpen/
+Documents/desplegarWeb/
+Documents/despliegeBW/
+Documents/despliegueSys/
+Documents/despliegueTFO/
+Documents/despliegueW/
+Documents/desplieguesimple/
+Documents/despliegueweb/
+Documents/diagramaClases.txt
+Documents/diagramakalet/
+Documents/doc1Calculo2.docx
+Documents/domg/
+Documents/eb1Open/
+Documents/edit/
+Documents/email/
+Documents/email_counts.sqlite
+Documents/entrega3-Estadistica/
+Documents/entregaLiteratura/
+Documents/entrergaParcialWEB/
+Documents/entrevistas/
+Documents/enviarSebastian/
+Documents/enviarlunesesta/
+Documents/erd para db/
+Documents/evidences/
+Documents/evidencesOpen/
+Documents/excek.zip
+Documents/excek/
+Documents/excel-estadistica-trabajo/
+Documents/final2Open/
+Documents/finalWeb/
+Documents/finalWebPract/
+Documents/flutter sdk/
+Documents/flutter/
+Documents/fondo/
+Documents/frontendWeb/.idea/
+Documents/fuenteWeb/
+Documents/fullWeb/
+Documents/guardaditoOpen/
+Documents/guia ESTRUCTURA.txt
+Documents/guiaOpen/
+Documents/guiaOpenF/
+Documents/iamCAFE/
+Documents/ihc en clase/
+Documents/ihc_trabajo_revisar/
+Documents/imagenesMiParteLunes/
+Documents/imagenesWeb/
+Documents/imagenesparalanding/
+Documents/imgdsboar/
+Documents/imgopen/
+Documents/integrarBackO/
+Documents/integrarRoastWEB/
+Documents/inverview/
+Documents/kaletito/
+Documents/landing/
+Documents/landingPage_MediAR/
+Documents/landingWebF/
+Documents/landingWebSubida/
+Documents/landing_examen/
+Documents/landingw/
+Documents/learning-center/
+Documents/leraning-center-master/
+Documents/lunes28octubre/
+Documents/lunes6/
+Documents/luneshtml/
+Documents/mbox.txt
+Documents/mergeOP/
+Documents/miercolesWEbpc1/
+Documents/miparteOPEN/
+Documents/miparteWEB/
+Documents/modulo5/
+Documents/node_mongo/
+Documents/oa3/
+Documents/open-src-upc/
+Documents/open/
+Documents/openDoc/
+Documents/openPrueba/
+Documents/openbackend/
+Documents/organoes en 3d/
+Documents/originalWeb/
+Documents/outcomeCome/
+Documents/p1ColombiaProyecto/
+Documents/parcialOpen/
+Documents/parteAdrianOpen/
+Documents/parteKaletOpen/
+Documents/parteRenzo/
+Documents/partechrisWeb/
+Documents/pasar/
+Documents/patientsCo/
+Documents/pc202401/
+Documents/pc2Open/
+Documents/pc2Web/
+Documents/pc2WebD/
+Documents/pc2WebP/
+Documents/pc2_open/
+Documents/pca/
+Documents/practic/
+Documents/practica flutter/
+Documents/practica xcode app/
+Documents/practica/
+Documents/practicaFlutter_Sab19/
+Documents/practicaNDO/
+Documents/practicaPC/
+Documents/practicaProgra/
+Documents/practicaPython/
+Documents/practicandoHTML/
+Documents/practicandoOpen/
+Documents/practicandogoc/
+Documents/prepaW/
+Documents/probando/
+Documents/problemFrontend/
+Documents/problemaAgente/
+Documents/problemsLanding/
+Documents/productoweb/
+Documents/proyectito.zip
+Documents/proyectito/
+Documents/proyecto carros/
+Documents/proyectoCars/
+Documents/proyectoFlutter/
+Documents/prueba_trabajorevisar/
+Documents/pruebaroastopen/
+Documents/pruebasOpenb/
+Documents/pruebasweb/
+Documents/public/
+Documents/pyhton_modulo5/
+Documents/pypract/
+Documents/python_bd/
+Documents/python_curso/
+Documents/python_modulo3/
+Documents/python_modulo4/
+Documents/readmeOpen/
+Documents/readmeWeb/
+Documents/repaso examen ihc/
+Documents/repaso2Open/
+Documents/repasoOpen/
+Documents/repasoPracticaPC2IHC/
+Documents/repositorioWebGuia/
+Documents/rpas/
+Documents/sabadoweb/
+Documents/salvarOpen/
+Documents/sem11/
+Documents/si730pc2u202320083.API/
+Documents/sorpresita/
+Documents/subirIng/
+Documents/subirOpen/
+Documents/subirproduct/
+Documents/subirweb/
+Documents/taller control virtual 1/
+Documents/tf1/
+Documents/tfarqui/
+Documents/trabajo bd/
+Documents/trabajos base de datos/
+Documents/txt1.txt
+Documents/u202320083_ISCSoportedeTIdeGoogle2.mp4
+Documents/ultiOpen/
+Documents/ultiPrueba/
+Documents/unificaWF/
+Documents/unificacionOpen/
+Documents/unificacionWeb/
+Documents/unirWebF/
+Documents/untitled/
+Documents/untitled1/
+Documents/untitled2/
+Documents/untitled3/
+Documents/untitled4/
+Documents/untitled5/
+Documents/untitled6/
+Documents/untitled7/
+Documents/untitled8/
+Documents/upc2402si729eaucode/
+Documents/v2Open/
+Documents/verWeb/
+Documents/verificando/
+Documents/verificarOpen/
+Documents/versionDev/
+Documents/video ingles/
+Documents/video2115845532.mp4
+Documents/videodespliegue/
+Documents/wallpaper/
+Documents/web application/
+Documents/xd/
+Documents/xddd/
+
+# Only allow the HormonalCare-IA-develop folder
+Documents/copiadeseguridad/HormonalCare-IA-develop/
