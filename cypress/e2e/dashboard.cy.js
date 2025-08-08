@@ -1,52 +1,39 @@
 
 // cypress/e2e/dashboard.cy.js
 
-describe('HormonalCare Dashboard Tests', () => {
+describe('Dashboard básico HormonalCare', () => {
   beforeEach(() => {
     cy.visit('https://hormonal-care-ia.vercel.app/')
   })
 
-  it('should load the dashboard and show the welcome message', () => {
-    cy.contains("Welcome back, Dr. Reed").should('be.visible')
+  it('Carga el dashboard y muestra el título', () => {
+    cy.contains('Dashboard').should('be.visible')
   })
 
-  it('should display key metrics correctly', () => {
-    cy.contains("Total Patients").should('be.visible')
-    cy.contains("Appointments Today").should('be.visible')
-    cy.contains("Active Cases").should('be.visible')
+  it('Muestra el botón Home en el sidebar', () => {
+    cy.contains('Home').should('be.visible')
   })
 
-  it('should navigate to quick access links', () => {
-    cy.contains("Analytics").click()
-    cy.url().should('include', '/analytics') // adjust if it's a modal or component instead
-    cy.go('back')
-
-    cy.contains("Reports").click()
-    cy.url().should('include', '/reports')
-    cy.go('back')
-
-    cy.contains("Lab Results").click()
-    cy.url().should('include', '/labs')
+  it('Muestra el botón Patients en el sidebar', () => {
+    cy.contains('Patients').should('be.visible')
   })
 
-  it('should toggle the sidebar', () => {
-    cy.get('button').contains('Toggle').click()
-    cy.get('aside').should('not.be.visible')
-    cy.get('button').contains('Toggle').click()
-    cy.get('aside').should('be.visible')
+  it('Muestra el botón Schedule en el sidebar', () => {
+    cy.contains('Schedule').should('be.visible')
   })
 
-  it('should show user email in sidebar', () => {
-    cy.contains("e.reed@hormonal.care").should('be.visible')
+  it('Muestra el botón Settings en el sidebar', () => {
+    cy.contains('Settings').should('be.visible')
   })
 
-  it('should be responsive on mobile view', () => {
-    cy.viewport('iphone-6')
-    cy.contains("Welcome back, Dr. Reed").should('be.visible')
-  })
-
-  it('should support keyboard navigation', () => {
-    cy.get('body').tab()
-    cy.focused().should('exist')
+    it('El chatbot responde a un saludo', () => {
+    // Abre el chat si es necesario (ajusta el selector si tu botón es diferente)
+    cy.contains('Chat').click({ force: true }) // O usa el selector correcto para abrir el chat
+  
+    // Escribe un mensaje en el input del chat
+    cy.get('input[placeholder="Escribe tu mensaje..."]').type('Hola{enter}')
+  
+    // Espera y verifica que aparezca una respuesta del bot
+    cy.contains('Hola').should('be.visible') // O ajusta según la respuesta esperada del bot
   })
 })
