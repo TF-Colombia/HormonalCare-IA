@@ -2,12 +2,13 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, Search, Settings, Users } from "lucide-react";
-import { SidebarInput, SidebarMenu, SidebarMenuItem, SidebarMenuButton } from "@/components/ui/sidebar";
+import { Home, Settings, Users } from "lucide-react";
+import { SidebarMenu, SidebarMenuItem, SidebarMenuButton } from "@/components/ui/sidebar";
 
 const navItems = [
   { href: "/", label: "Home", icon: Home },
   { href: "/patients", label: "Patients", icon: Users },
+  { href: "/schedule", label: "Schedule", icon: Home },
   { href: "/settings", label: "Settings", icon: Settings },
 ];
 
@@ -16,10 +17,6 @@ export function Nav() {
 
   return (
     <div className="flex flex-col gap-4">
-      <div className="relative px-2">
-        <Search className="absolute left-5 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-        <SidebarInput placeholder="Search patients..." className="pl-9" />
-      </div>
       <SidebarMenu>
         {navItems.map((item) => (
           <SidebarMenuItem key={item.label}>
